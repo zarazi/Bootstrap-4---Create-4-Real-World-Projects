@@ -72,6 +72,12 @@
         padding: 5px 12px 10px 16px;
       }
 
+      @media screen and (max-width: 992px) {
+        .bg-home-dashboard {
+            background-image: none;
+            background-color: #eeeeee
+        }
+      }   
   </style>
   <body>    
 
@@ -86,6 +92,7 @@
             <img class="logo-image" height="35px" src="img/banner/banner-6-gr.png">
         </div>
     </section>
+    <!-- end of Logos -->
 
     <!-- navbar -->
     <nav class="px-sm-5 px-2 navbar navbar-expand-md navbar-dark bg-home bg-home-nav sticky-top">
@@ -105,27 +112,28 @@
         </div>
 
     </nav>
-     
-     <!-- end of navbar -->
+    <!-- end of navbar -->
 
-    <section class="px-sm-5 p-2 bg-home bg-home-dashboard d-none d-lg-block">
+    <!-- dashboard -->
+    <section class="p-sm-5 p-2 bg-home bg-home-dashboard">
         <div class="container-fluid">
-            <div class="row pb-sm-5">
-                <div class="col-lg-4 col-sm-10 mx-auto mb-lg-3 mb-sm-5">
-                    <h4 class="text-center">คิด</h4>
-                    <img src="img/mocks/db-home-1.png" class="img-fluid" />
+            <div class="row">
+                <div class="col-lg-4 col-sm-10 text-center mx-auto mb-lg-3 mb-sm-5">
+                    <h4 class="">คิด</h4>
+                    <img src="img/mocks/db-home-1.png" class="img-fluid" width="100%"/>
                 </div>
-                <div class="col-lg-4 col-sm-10 mx-auto mb-lg-3 mb-sm-5">
-                    <h4 class="text-center">คุย</h4>
-                    <img src="img/mocks/db-home-2.png" class="img-fluid" />
+                <div class="col-lg-4 col-sm-10 text-center mx-auto mb-lg-3 mb-sm-5">
+                    <h4 class="">คุย</h4>
+                    <img src="img/mocks/db-home-2.png" class="img-fluid" width="100%" />
                 </div>
-                <div class="col-lg-4 col-sm-10 mx-auto mb-lg-3 mb-sm-5">
-                    <h4 class="text-center">ค้น</h4>
-                    <img src="img/mocks/db-home-3.png" class="img-fluid" />
+                <div class="col-lg-4 col-sm-10 text-center mx-auto mb-lg-3 mb-sm-5">
+                    <h4 class="">ค้น</h4>
+                    <img src="img/mocks/db-home-3.png" class="img-fluid" width="100%" />
                 </div>
             </div>
         </div>
     </section>
+    <!-- end of dashboard -->
 
     <!-- KidKuiKon -->
     <section class="p-sm-5 p-2">
