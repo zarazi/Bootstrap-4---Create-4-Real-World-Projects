@@ -18,6 +18,21 @@
         font-family: 'Kanit', sans-serif;
         color: #1d3664;
       }
+      .bg-home {
+        background-image: url("img/bg/bg-home.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bg-home-nav {
+        background-position-y: -105px;;
+      }
+      .bg-home-dashboard {
+        background-position-y: -240px;;
+      }
+      .text-dark {
+        color: #1d3664 !important;
+      }
       .logo-image {
           max-height: 70px;
           padding: 0 0.8rem;
@@ -57,14 +72,11 @@
         padding: 5px 12px 10px 16px;
       }
 
-      .text-dark {
-        color: #1d3664 !important;
-      }
   </style>
   <body>    
 
     <!-- Logos -->
-    <section>
+    <section class="bg-home">
         <div class="container-fluid d-sm-inline-flex justify-content-center align-items-center my-3">
             <img class="logo-image" height="70px" src="img/banner/banner-1-kstc.png">
             <img class="logo-image" height="67px" src="img/banner/banner-2-ktps.png">
@@ -76,7 +88,7 @@
     </section>
 
     <!-- navbar -->
-        <nav class="px-sm-5 px-2 navbar navbar-expand-md navbar-dark bg-white sticky-top">
+        <nav class="px-sm-5 px-2 navbar navbar-expand-md navbar-dark bg-home bg-home-nav sticky-top">
 
             <a href="#" class="navbar-brand"><img src="img/logo/logo-tdc-2_Logo-cube.png" height="110"></a>
             <button type="button" class="navbar-toggler bg-secondary" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
@@ -96,8 +108,12 @@
      
      <!-- end of navbar -->
 
+    <section class="px-sm-5 px-2 bg-home bg-home-dashboard">
+        <div style="height: 350px;"></div>
+    </section>
+
     <!-- KidKuiKon -->
-    <section class="p-sm-5 p-2 bg-light">
+    <section class="p-sm-5 p-2">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4 col-sm-10 mx-auto mb-lg-3 mb-sm-5">
