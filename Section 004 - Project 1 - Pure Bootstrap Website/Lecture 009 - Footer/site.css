@@ -60,6 +60,19 @@ body {
   padding: 5px 12px 10px 16px;
 }
 
+.nav-menu-link {
+    color: #1d3664 !important;
+}
+
+.nav-menu-link.active {
+    text-decoration: underline #e278a1;
+    text-underline-position: under;
+}
+.nav-menu-link:hover {
+    text-decoration: underline #1d3664;
+    text-underline-position: under;
+}
+
 @media screen and (max-width: 992px) {
   .bg-home-dashboard {
     background-image: none;
