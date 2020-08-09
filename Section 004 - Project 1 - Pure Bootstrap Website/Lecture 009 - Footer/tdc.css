@@ -2,6 +2,27 @@ body {
   font-family: 'Kanit', sans-serif;
   color: #1d3664;
 }
+.bg-body-home {
+  background-image: url('img/bg/bg-home.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 575px) {
+  .bg-body-home {
+    background-size: auto 30%;
+    background-position-x: 75%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .bg-body-home {
+    background-size: auto 30%;
+    background-position-x: 75%;
+  }
+}
+
 .bg-home {
   background-image: url('img/bg/bg-home.png');
   background-position: top;
