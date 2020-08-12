@@ -80,6 +80,18 @@ body {
   border-radius: 0 1rem 0 3rem;
   padding: 5px 12px 10px 16px;
 }
+.corner-left-top {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* height: 2.5rem; */
+  /* background-color: #1d3664; */
+  background:#808080;
+  background:rgba(128,128,128,0.75);
+  color: white;
+  padding: 8px;
+}
+
 
 .nav-menu-link {
     color: #1d3664 !important;
